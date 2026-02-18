@@ -26,8 +26,8 @@ tasks.withType<JavaCompile> {
 }
 
 application {
-    mainModule.set("com.example.project_chatshowroom")
-    mainClass.set("com.example.project_chatshowroom.HelloApplication")
+    mainModule.set("com.project_chatshowroom")
+    mainClass.set("com.project_chatshowroom.Application")
 }
 
 javafx {
